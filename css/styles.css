@@ -6,18 +6,6 @@ body {
 a {text-decoration: none;}
 ul {list-style: none;}
 
-.visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-
-        white-space: nowrap;
-        clip-path: inset(100%);
-        overflow: hidden;
-}
 
 .header-logo {
         color:#4D5AE5;
@@ -110,6 +98,10 @@ ul {list-style: none;}
 }
 
 .hero-order-btn:focus {
+        background-color: #404BBF
+}
+
+.hero-order-btn:hover {
         background-color: #404BBF
 }
 
