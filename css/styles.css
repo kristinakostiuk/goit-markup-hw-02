@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background: #FFF;
+    color: #434455
 }
 a {text-decoration: none;}
 ul {list-style: none;}
@@ -53,6 +55,14 @@ ul {list-style: none;}
         color: #404BBF;
 }
 
+.header-menu-link:focus {
+        color: #404bbf
+}
+
+.contacts {
+        font-style: normal
+}
+
 .header-list-link {
         color: #434455;
         font-size: 16px;
@@ -63,6 +73,10 @@ ul {list-style: none;}
 
 .header-list-link:hover {
         color: #404BBF; 
+}
+
+.header-list-link:focus {
+        color: #404BBF;
 }
 
 .hero {
@@ -87,9 +101,16 @@ ul {list-style: none;}
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        border-radius: 4px;
         background: #4D5AE5;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        
+}
+
+.hero-order-btn:active {
+        background-color: #404BBF
+}
+
+.hero-order-btn:focus {
+        background-color: #404BBF
 }
 
 .features {}
@@ -114,21 +135,27 @@ ul {list-style: none;}
 }
 
 
-.team {}
+.team {
+        background-color: #F4F4FD
+}
 
 .ourteam-title {
         color: #2E2F42;
         text-align: center;
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+        
+}
 
-.team-item {}
+.team-item {
+        background-color: #FFFFFF
+}
 
 .team-img {
 
@@ -159,7 +186,7 @@ ul {list-style: none;}
         text-align: center;
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
